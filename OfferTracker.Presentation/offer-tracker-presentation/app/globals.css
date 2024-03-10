@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-heading {
+  text-align: center;
+  padding: 20px;
+  font-size:50px;
+}
+
+.offer-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px; /* Add margin-top for spacing between heading and table */
+}
+
+.offer-table th, .offer-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.even-row {
+  background-color: #f2f2f2;
+}
+
+.odd-row {
+  background-color: #fff;
+}
+
+.add-offer-button {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #0070f3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-offer-button:hover {
+  background-color: #0056b3;
+}
+.offer-page-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.offer-page-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  margin-bottom: 8px;
+}
+
+.form-input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  padding: 8px 12px; /* Adjust padding as needed */
+  border: none;
+  cursor: pointer;
+  border-radius:10px;
+}
+span {
+  margin-right: 10px;
+}
